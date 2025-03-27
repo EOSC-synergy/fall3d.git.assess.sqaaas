@@ -4,71 +4,61 @@ config:
     github.com/EOSC-synergy/sqaaas-tooling:
       branch: main
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
-    gitlab.com/fall3d-suite/fall3d:
+    gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d:
       branch: master
-      repo: https://gitlab.com/fall3d-suite/fall3d.git
+      repo: https://gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d.git
 environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
 sqa_criteria:
   QC.Acc:
     repos:
-      gitlab.com/fall3d-suite/fall3d git:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d git:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-magnolia-bee.sh
-        container: qc.acc_grumpy-bistre-gibbon
+        - /usr/bin/env sh .sqa/script.squirrely-silver-cougar.sh
+        container: qc.acc_dorky-malachite-russel
   QC.Doc:
     repos:
-      gitlab.com/fall3d-suite/fall3d find_doc_files.py:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-mauve-whippet.sh
-        container: qc.doc_thirsty-sapphire-civet
-      gitlab.com/fall3d-suite/fall3d git:
+        - /usr/bin/env sh .sqa/script.woozy-cyan-hedgehog.sh
+        container: qc.doc_nippy-chocolate-weasel
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d git:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-tan-macaw.sh
-        container: qc.doc_hazy-tangerine-dunker
-      gitlab.com/fall3d-suite/fall3d markdownlint:
+        - /usr/bin/env sh .sqa/script.beady-pumpkin-snail.sh
+        container: qc.doc_scummy-sepia-labradoodle
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-bronze-octopus.sh
-        container: qc.doc_slimy-blue-beagle
+        - /usr/bin/env sh .sqa/script.gummy-maroon-gar.sh
+        container: qc.doc_snoopy-puce-newt
   QC.Lic:
     repos:
-      gitlab.com/fall3d-suite/fall3d licensee:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-amethyst-clam.sh
-        container: qc.lic_sunny-aquamarine-kangaroo
-  QC.Met:
-    repos:
-      gitlab.com/fall3d-suite/fall3d cff-converter-python:
-        commands:
-        - /usr/bin/env sh .sqa/script.stuffy-wheat-echidna.sh
-        container: qc.met_cheeky-chartreuse-fousek
+        - /usr/bin/env sh .sqa/script.goopy-azure-angelfish.sh
+        container: qc.lic_sleazy-lime-bird
   QC.Sec:
     repos:
-      gitlab.com/fall3d-suite/fall3d bandit:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-sepia-caracal.sh
-        container: qc.sec_squeaky-crimson-chamois
+        - /usr/bin/env sh .sqa/script.grumpy-lavender-chinook.sh
+        container: qc.sec_hazy-tan-spider
   QC.Sty:
     repos:
-      gitlab.com/fall3d-suite/fall3d flake8:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-orchid-dragonfly.sh
-        container: qc.sty_seedy-alizarin-yak
-      gitlab.com/fall3d-suite/fall3d jsonlint:
-        commands:
-        - /usr/bin/env sh .sqa/script.wheezy-corn-mastiff.sh
-        container: qc.sty_slimy-mauve-hyrax
+        - /usr/bin/env sh .sqa/script.greasy-pink-swan.sh
+        container: qc.sty_jumpy-salmon-chicken
   QC.Uni:
     repos:
-      gitlab.com/fall3d-suite/fall3d pytest:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d commands:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-azure-numbat.sh
-        container: qc.uni_frumpy-khaki-emu
+        - /usr/bin/env sh .sqa/script.baggy-goldenrod-kangaroo.sh
+        container: qc.uni_homey-harlequin-swan
   QC.Ver:
     repos:
-      gitlab.com/fall3d-suite/fall3d get_git_tags.py:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-cream-tetra.sh
-        container: qc.ver_homey-turquoise-mastiff
+        - /usr/bin/env sh .sqa/script.hilly-periwinkle-monster.sh
+        container: qc.ver_paltry-apricot-squid
 timeout: 5400
