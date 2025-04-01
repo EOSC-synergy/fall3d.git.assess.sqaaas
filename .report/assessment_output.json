@@ -3,7 +3,7 @@
         "version": "3.5.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/fall3d.git.assess.sqaaas/master/.report/assessment_output.json",
         "report_permalink": "https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/fall3d.git.assess.sqaaas/master/.report/assessment_output.json",
-        "timestamp": 1743060218.9951198
+        "timestamp": 1743494826.481721
     },
     "repository": [
         {
@@ -46,7 +46,7 @@
                                         "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/6/execution/node/34/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/8/execution/node/34/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -98,7 +98,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 442}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/6/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/8/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -149,7 +149,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 442}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/6/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/8/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -201,7 +201,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 442}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/6/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/8/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -250,7 +250,7 @@
                                         "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/6/execution/node/52/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/8/execution/node/52/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -292,7 +292,7 @@
                                         "mdl --json  ."
                                     ],
                                     "stdout_text": "[{\"filename\":\"./README.md\",\"line\":3,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":6,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"}]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/6/execution/node/61/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/8/execution/node/61/log?consoleFull"
                                 },
                                 "level": "RECOMMENDED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -363,8 +363,8 @@
                                     "stdout_command": [
                                         "bandit -f json --quiet  --confidence-level high --severity-level high --recursive  ."
                                     ],
-                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2025-03-27T07:21:57Z\",\n  \"metrics\": {\n    \"./Fall3D.py\": {\n      \"CONFIDENCE.HIGH\": 5,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 1,\n      \"SEVERITY.LOW\": 4,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 55,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 5,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 1,\n      \"SEVERITY.LOW\": 4,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 55,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": [\n    {\n      \"code\": \"15     meteo_fall3dinp( fall3d,'GFS20240823-12z-res0.25.nc')\\n16     os.system(\\\"cat \\\"+fall3d)\\n17     list_command=[\\\"SetTgsd\\\",\\\"SetDbs\\\",\\\"SetSrc\\\",\\\"FALL3D\\\"]\\n\",\n      \"col_offset\": 4,\n      \"filename\": \"./Fall3D.py\",\n      \"issue_confidence\": \"HIGH\",\n      \"issue_cwe\": {\n        \"id\": 78,\n        \"link\": \"https://cwe.mitre.org/data/definitions/78.html\"\n      },\n      \"issue_severity\": \"HIGH\",\n      \"issue_text\": \"Starting a process with a shell, possible injection detected, security issue.\",\n      \"line_number\": 16,\n      \"line_range\": [\n        16\n      ],\n      \"more_info\": \"https://bandit.readthedocs.io/en/1.7.4/plugins/b605_start_process_with_a_shell.html\",\n      \"test_id\": \"B605\",\n      \"test_name\": \"start_process_with_a_shell\"\n    }\n  ]\n}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/6/execution/node/79/log?consoleFull"
+                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2025-04-01T08:05:19Z\",\n  \"metrics\": {\n    \"./Fall3D.py\": {\n      \"CONFIDENCE.HIGH\": 5,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 1,\n      \"SEVERITY.LOW\": 4,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 55,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 5,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 1,\n      \"SEVERITY.LOW\": 4,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 55,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": [\n    {\n      \"code\": \"15     meteo_fall3dinp( fall3d,'GFS20240823-12z-res0.25.nc')\\n16     os.system(\\\"cat \\\"+fall3d)\\n17     list_command=[\\\"SetTgsd\\\",\\\"SetDbs\\\",\\\"SetSrc\\\",\\\"FALL3D\\\"]\\n\",\n      \"col_offset\": 4,\n      \"filename\": \"./Fall3D.py\",\n      \"issue_confidence\": \"HIGH\",\n      \"issue_cwe\": {\n        \"id\": 78,\n        \"link\": \"https://cwe.mitre.org/data/definitions/78.html\"\n      },\n      \"issue_severity\": \"HIGH\",\n      \"issue_text\": \"Starting a process with a shell, possible injection detected, security issue.\",\n      \"line_number\": 16,\n      \"line_range\": [\n        16\n      ],\n      \"more_info\": \"https://bandit.readthedocs.io/en/1.7.4/plugins/b605_start_process_with_a_shell.html\",\n      \"test_id\": \"B605\",\n      \"test_name\": \"start_process_with_a_shell\"\n    }\n  ]\n}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/8/execution/node/79/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -376,7 +376,7 @@
                             },
                             "data_unstructured": {
                                 "errors": [],
-                                "generated_at": "2025-03-27T07:21:57Z",
+                                "generated_at": "2025-04-01T08:05:19Z",
                                 "metrics": {
                                     "./Fall3D.py": {
                                         "CONFIDENCE.HIGH": 5,
@@ -469,7 +469,7 @@
                                         "flake8 ."
                                     ],
                                     "stdout_text": "./Fall3D.py:4:1: F401 'shutil' imported but unused\n./Fall3D.py:11:1: E302 expected 2 blank lines, found 1\n./Fall3D.py:11:30: E231 missing whitespace after ','\n./Fall3D.py:11:44: E231 missing whitespace after ','\n./Fall3D.py:11:59: E231 missing whitespace after ','\n./Fall3D.py:11:73: E231 missing whitespace after ','\n./Fall3D.py:11:80: E501 line too long (86 > 79 characters)\n./Fall3D.py:12:27: E231 missing whitespace after ','\n./Fall3D.py:12:33: E231 missing whitespace after ','\n./Fall3D.py:12:40: E231 missing whitespace after ','\n./Fall3D.py:12:45: E231 missing whitespace after ','\n./Fall3D.py:15:21: E201 whitespace after '('\n./Fall3D.py:15:28: E231 missing whitespace after ','\n./Fall3D.py:17:17: E225 missing whitespace around operator\n./Fall3D.py:17:28: E231 missing whitespace after ','\n./Fall3D.py:17:37: E231 missing whitespace after ','\n./Fall3D.py:17:46: E231 missing whitespace after ','\n./Fall3D.py:19:30: E231 missing whitespace after ','\n./Fall3D.py:19:42: E231 missing whitespace after ','\n./Fall3D.py:23:80: E501 line too long (112 > 79 characters)\n./Fall3D.py:25:68: F821 undefined name 'comand_sub'\n./Fall3D.py:25:80: E501 line too long (85 > 79 characters)\n./Fall3D.py:26:1: W293 blank line contains whitespace\n./Fall3D.py:27:1: W293 blank line contains whitespace\n./Fall3D.py:28:30: E231 missing whitespace after ','\n./Fall3D.py:28:38: W291 trailing whitespace\n./Fall3D.py:30:32: E231 missing whitespace after ':'\n./Fall3D.py:31:1: W293 blank line contains whitespace\n./Fall3D.py:34:1: W293 blank line contains whitespace\n./Fall3D.py:37:32: W291 trailing whitespace\n./Fall3D.py:38:49: W291 trailing whitespace\n./Fall3D.py:55:1: E302 expected 2 blank lines, found 1\n./Fall3D.py:57:45: E231 missing whitespace after ','\n./Fall3D.py:57:70: E231 missing whitespace after ','\n./Fall3D.py:57:80: E501 line too long (95 > 79 characters)\n./Fall3D.py:58:15: E225 missing whitespace around operator\n./Fall3D.py:59:1: W293 blank line contains whitespace\n./Fall3D.py:61:12: E225 missing whitespace around operator\n./Fall3D.py:61:37: E231 missing whitespace after ','\n./Fall3D.py:62:13: E225 missing whitespace around operator\n./Fall3D.py:62:38: E231 missing whitespace after ','\n./Fall3D.py:63:15: E225 missing whitespace around operator\n./Fall3D.py:63:40: E231 missing whitespace after ','\n./Fall3D.py:64:35: E231 missing whitespace after ','\n./Fall3D.py:64:46: E231 missing whitespace after ','\n./Fall3D.py:64:53: E231 missing whitespace after ','\n./Fall3D.py:64:58: E231 missing whitespace after ','\n./Fall3D.py:66:1: E305 expected 2 blank lines after class or function definition, found 1",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/6/execution/node/88/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/8/execution/node/88/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -522,7 +522,7 @@
                                         "echo 'Here we will execute COMPSs'"
                                     ],
                                     "stdout_text": "Here we will execute COMPSs",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/6/execution/node/97/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/8/execution/node/97/log?consoleFull"
                                 },
                                 "level": null,
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -574,7 +574,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/6/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/8/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -617,7 +617,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/6/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/8/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -660,7 +660,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/6/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/8/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
