@@ -3,14 +3,14 @@
         "version": "3.5.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/fall3d.git.assess.sqaaas/master/.report/assessment_output.json",
         "report_permalink": "https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/fall3d.git.assess.sqaaas/master/.report/assessment_output.json",
-        "timestamp": 1743608354.8775368
+        "timestamp": 1748253648.4497075
     },
     "repository": [
         {
             "url": "https://gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d.git",
             "name": "dtgeo_geo3bcn/dtc-v2/fall3d",
             "tag": "master",
-            "commit_id": "6af9d46a269c4c68dc7c2b37577cf792916454a9",
+            "commit_id": "5ab96fb2c108b7445ecff0ec5ea2ba10d3cd8d87",
             "is_main_repo": true,
             "badge_status": "no_badge"
         }
@@ -46,7 +46,7 @@
                                         "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/10/execution/node/34/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/12/execution/node/34/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -98,7 +98,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 442}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/10/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/12/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -149,7 +149,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 442}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/10/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/12/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -201,7 +201,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 442}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/10/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/12/execution/node/43/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -250,7 +250,7 @@
                                         "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/10/execution/node/52/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/12/execution/node/52/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -292,7 +292,7 @@
                                         "mdl --json  ."
                                     ],
                                     "stdout_text": "[{\"filename\":\"./README.md\",\"line\":3,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":6,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"}]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/10/execution/node/61/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/12/execution/node/61/log?consoleFull"
                                 },
                                 "level": "RECOMMENDED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -363,8 +363,8 @@
                                     "stdout_command": [
                                         "bandit -f json --quiet  --confidence-level high --severity-level high --recursive  ."
                                     ],
-                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2025-04-02T15:37:32Z\",\n  \"metrics\": {\n    \"./Fall3D.py\": {\n      \"CONFIDENCE.HIGH\": 5,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 1,\n      \"SEVERITY.LOW\": 4,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 55,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 5,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 1,\n      \"SEVERITY.LOW\": 4,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 55,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": [\n    {\n      \"code\": \"15     meteo_fall3dinp( fall3d,'GFS20240823-12z-res0.25.nc')\\n16     os.system(\\\"cat \\\"+fall3d)\\n17     list_command=[\\\"SetTgsd\\\",\\\"SetDbs\\\",\\\"SetSrc\\\",\\\"FALL3D\\\"]\\n\",\n      \"col_offset\": 4,\n      \"filename\": \"./Fall3D.py\",\n      \"issue_confidence\": \"HIGH\",\n      \"issue_cwe\": {\n        \"id\": 78,\n        \"link\": \"https://cwe.mitre.org/data/definitions/78.html\"\n      },\n      \"issue_severity\": \"HIGH\",\n      \"issue_text\": \"Starting a process with a shell, possible injection detected, security issue.\",\n      \"line_number\": 16,\n      \"line_range\": [\n        16\n      ],\n      \"more_info\": \"https://bandit.readthedocs.io/en/1.7.4/plugins/b605_start_process_with_a_shell.html\",\n      \"test_id\": \"B605\",\n      \"test_name\": \"start_process_with_a_shell\"\n    }\n  ]\n}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/10/execution/node/79/log?consoleFull"
+                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2025-05-26T09:58:29Z\",\n  \"metrics\": {\n    \"./Fall3D.py\": {\n      \"CONFIDENCE.HIGH\": 5,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 1,\n      \"SEVERITY.LOW\": 4,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 55,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./Fall3D_container.py\": {\n      \"CONFIDENCE.HIGH\": 3,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 1,\n      \"SEVERITY.LOW\": 2,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 36,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./Fall3D_leonardo.py\": {\n      \"CONFIDENCE.HIGH\": 5,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 1,\n      \"SEVERITY.LOW\": 4,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 55,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 13,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 3,\n      \"SEVERITY.LOW\": 10,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 146,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": [\n    {\n      \"code\": \"15     meteo_fall3dinp( fall3d,'GFS20240823-12z-res0.25.nc')\\n16     os.system(\\\"cat \\\"+fall3d)\\n17     list_command=[\\\"SetTgsd\\\",\\\"SetDbs\\\",\\\"SetSrc\\\",\\\"FALL3D\\\"]\\n\",\n      \"col_offset\": 4,\n      \"filename\": \"./Fall3D.py\",\n      \"issue_confidence\": \"HIGH\",\n      \"issue_cwe\": {\n        \"id\": 78,\n        \"link\": \"https://cwe.mitre.org/data/definitions/78.html\"\n      },\n      \"issue_severity\": \"HIGH\",\n      \"issue_text\": \"Starting a process with a shell, possible injection detected, security issue.\",\n      \"line_number\": 16,\n      \"line_range\": [\n        16\n      ],\n      \"more_info\": \"https://bandit.readthedocs.io/en/1.7.4/plugins/b605_start_process_with_a_shell.html\",\n      \"test_id\": \"B605\",\n      \"test_name\": \"start_process_with_a_shell\"\n    },\n    {\n      \"code\": \"28         # Run the commands inside the container\\n29         subprocess.run(full_command, shell=True, check=True)\\n30         print(f\\\"FALL3D simulation completed successfully with input file: {infile}\\\")\\n\",\n      \"col_offset\": 8,\n      \"filename\": \"./Fall3D_container.py\",\n      \"issue_confidence\": \"HIGH\",\n      \"issue_cwe\": {\n        \"id\": 78,\n        \"link\": \"https://cwe.mitre.org/data/definitions/78.html\"\n      },\n      \"issue_severity\": \"HIGH\",\n      \"issue_text\": \"subprocess call with shell=True identified, security issue.\",\n      \"line_number\": 29,\n      \"line_range\": [\n        29\n      ],\n      \"more_info\": \"https://bandit.readthedocs.io/en/1.7.4/plugins/b602_subprocess_popen_with_shell_equals_true.html\",\n      \"test_id\": \"B602\",\n      \"test_name\": \"subprocess_popen_with_shell_equals_true\"\n    },\n    {\n      \"code\": \"15     meteo_fall3dinp( fall3d,'GFS20240823-12z-res0.25.nc')\\n16     os.system(\\\"cat \\\"+fall3d)\\n17     list_command=[\\\"SetTgsd\\\",\\\"SetDbs\\\",\\\"SetSrc\\\",\\\"FALL3D\\\"]\\n\",\n      \"col_offset\": 4,\n      \"filename\": \"./Fall3D_leonardo.py\",\n      \"issue_confidence\": \"HIGH\",\n      \"issue_cwe\": {\n        \"id\": 78,\n        \"link\": \"https://cwe.mitre.org/data/definitions/78.html\"\n      },\n      \"issue_severity\": \"HIGH\",\n      \"issue_text\": \"Starting a process with a shell, possible injection detected, security issue.\",\n      \"line_number\": 16,\n      \"line_range\": [\n        16\n      ],\n      \"more_info\": \"https://bandit.readthedocs.io/en/1.7.4/plugins/b605_start_process_with_a_shell.html\",\n      \"test_id\": \"B605\",\n      \"test_name\": \"start_process_with_a_shell\"\n    }\n  ]\n}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/12/execution/node/79/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -376,7 +376,7 @@
                             },
                             "data_unstructured": {
                                 "errors": [],
-                                "generated_at": "2025-04-02T15:37:32Z",
+                                "generated_at": "2025-05-26T09:58:29Z",
                                 "metrics": {
                                     "./Fall3D.py": {
                                         "CONFIDENCE.HIGH": 5,
@@ -391,7 +391,20 @@
                                         "nosec": 0,
                                         "skipped_tests": 0
                                     },
-                                    "_totals": {
+                                    "./Fall3D_container.py": {
+                                        "CONFIDENCE.HIGH": 3,
+                                        "CONFIDENCE.LOW": 0,
+                                        "CONFIDENCE.MEDIUM": 0,
+                                        "CONFIDENCE.UNDEFINED": 0,
+                                        "SEVERITY.HIGH": 1,
+                                        "SEVERITY.LOW": 2,
+                                        "SEVERITY.MEDIUM": 0,
+                                        "SEVERITY.UNDEFINED": 0,
+                                        "loc": 36,
+                                        "nosec": 0,
+                                        "skipped_tests": 0
+                                    },
+                                    "./Fall3D_leonardo.py": {
                                         "CONFIDENCE.HIGH": 5,
                                         "CONFIDENCE.LOW": 0,
                                         "CONFIDENCE.MEDIUM": 0,
@@ -403,6 +416,19 @@
                                         "loc": 55,
                                         "nosec": 0,
                                         "skipped_tests": 0
+                                    },
+                                    "_totals": {
+                                        "CONFIDENCE.HIGH": 13,
+                                        "CONFIDENCE.LOW": 0,
+                                        "CONFIDENCE.MEDIUM": 0,
+                                        "CONFIDENCE.UNDEFINED": 0,
+                                        "SEVERITY.HIGH": 3,
+                                        "SEVERITY.LOW": 10,
+                                        "SEVERITY.MEDIUM": 0,
+                                        "SEVERITY.UNDEFINED": 0,
+                                        "loc": 146,
+                                        "nosec": 0,
+                                        "skipped_tests": 0
                                     }
                                 },
                                 "results": [
@@ -410,6 +436,44 @@
                                         "code": "15     meteo_fall3dinp( fall3d,'GFS20240823-12z-res0.25.nc')\n16     os.system(\"cat \"+fall3d)\n17     list_command=[\"SetTgsd\",\"SetDbs\",\"SetSrc\",\"FALL3D\"]\n",
                                         "col_offset": 4,
                                         "filename": "./Fall3D.py",
+                                        "issue_confidence": "HIGH",
+                                        "issue_cwe": {
+                                            "id": 78,
+                                            "link": "https://cwe.mitre.org/data/definitions/78.html"
+                                        },
+                                        "issue_severity": "HIGH",
+                                        "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+                                        "line_number": 16,
+                                        "line_range": [
+                                            16
+                                        ],
+                                        "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b605_start_process_with_a_shell.html",
+                                        "test_id": "B605",
+                                        "test_name": "start_process_with_a_shell"
+                                    },
+                                    {
+                                        "code": "28         # Run the commands inside the container\n29         subprocess.run(full_command, shell=True, check=True)\n30         print(f\"FALL3D simulation completed successfully with input file: {infile}\")\n",
+                                        "col_offset": 8,
+                                        "filename": "./Fall3D_container.py",
+                                        "issue_confidence": "HIGH",
+                                        "issue_cwe": {
+                                            "id": 78,
+                                            "link": "https://cwe.mitre.org/data/definitions/78.html"
+                                        },
+                                        "issue_severity": "HIGH",
+                                        "issue_text": "subprocess call with shell=True identified, security issue.",
+                                        "line_number": 29,
+                                        "line_range": [
+                                            29
+                                        ],
+                                        "more_info": "https://bandit.readthedocs.io/en/1.7.4/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+                                        "test_id": "B602",
+                                        "test_name": "subprocess_popen_with_shell_equals_true"
+                                    },
+                                    {
+                                        "code": "15     meteo_fall3dinp( fall3d,'GFS20240823-12z-res0.25.nc')\n16     os.system(\"cat \"+fall3d)\n17     list_command=[\"SetTgsd\",\"SetDbs\",\"SetSrc\",\"FALL3D\"]\n",
+                                        "col_offset": 4,
+                                        "filename": "./Fall3D_leonardo.py",
                                         "issue_confidence": "HIGH",
                                         "issue_cwe": {
                                             "id": 78,
@@ -468,8 +532,8 @@
                                     "stdout_command": [
                                         "flake8 ."
                                     ],
-                                    "stdout_text": "./Fall3D.py:4:1: F401 'shutil' imported but unused\n./Fall3D.py:11:1: E302 expected 2 blank lines, found 1\n./Fall3D.py:11:30: E231 missing whitespace after ','\n./Fall3D.py:11:44: E231 missing whitespace after ','\n./Fall3D.py:11:59: E231 missing whitespace after ','\n./Fall3D.py:11:73: E231 missing whitespace after ','\n./Fall3D.py:11:80: E501 line too long (86 > 79 characters)\n./Fall3D.py:12:27: E231 missing whitespace after ','\n./Fall3D.py:12:33: E231 missing whitespace after ','\n./Fall3D.py:12:40: E231 missing whitespace after ','\n./Fall3D.py:12:45: E231 missing whitespace after ','\n./Fall3D.py:15:21: E201 whitespace after '('\n./Fall3D.py:15:28: E231 missing whitespace after ','\n./Fall3D.py:17:17: E225 missing whitespace around operator\n./Fall3D.py:17:28: E231 missing whitespace after ','\n./Fall3D.py:17:37: E231 missing whitespace after ','\n./Fall3D.py:17:46: E231 missing whitespace after ','\n./Fall3D.py:19:30: E231 missing whitespace after ','\n./Fall3D.py:19:42: E231 missing whitespace after ','\n./Fall3D.py:23:80: E501 line too long (112 > 79 characters)\n./Fall3D.py:25:68: F821 undefined name 'comand_sub'\n./Fall3D.py:25:80: E501 line too long (85 > 79 characters)\n./Fall3D.py:26:1: W293 blank line contains whitespace\n./Fall3D.py:27:1: W293 blank line contains whitespace\n./Fall3D.py:28:30: E231 missing whitespace after ','\n./Fall3D.py:28:38: W291 trailing whitespace\n./Fall3D.py:30:32: E231 missing whitespace after ':'\n./Fall3D.py:31:1: W293 blank line contains whitespace\n./Fall3D.py:34:1: W293 blank line contains whitespace\n./Fall3D.py:37:32: W291 trailing whitespace\n./Fall3D.py:38:49: W291 trailing whitespace\n./Fall3D.py:55:1: E302 expected 2 blank lines, found 1\n./Fall3D.py:57:45: E231 missing whitespace after ','\n./Fall3D.py:57:70: E231 missing whitespace after ','\n./Fall3D.py:57:80: E501 line too long (95 > 79 characters)\n./Fall3D.py:58:15: E225 missing whitespace around operator\n./Fall3D.py:59:1: W293 blank line contains whitespace\n./Fall3D.py:61:12: E225 missing whitespace around operator\n./Fall3D.py:61:37: E231 missing whitespace after ','\n./Fall3D.py:62:13: E225 missing whitespace around operator\n./Fall3D.py:62:38: E231 missing whitespace after ','\n./Fall3D.py:63:15: E225 missing whitespace around operator\n./Fall3D.py:63:40: E231 missing whitespace after ','\n./Fall3D.py:64:35: E231 missing whitespace after ','\n./Fall3D.py:64:46: E231 missing whitespace after ','\n./Fall3D.py:64:53: E231 missing whitespace after ','\n./Fall3D.py:64:58: E231 missing whitespace after ','\n./Fall3D.py:66:1: E305 expected 2 blank lines after class or function definition, found 1",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/10/execution/node/88/log?consoleFull"
+                                    "stdout_text": "./Fall3D.py:4:1: F401 'shutil' imported but unused\n./Fall3D.py:11:1: E302 expected 2 blank lines, found 1\n./Fall3D.py:11:30: E231 missing whitespace after ','\n./Fall3D.py:11:44: E231 missing whitespace after ','\n./Fall3D.py:11:59: E231 missing whitespace after ','\n./Fall3D.py:11:73: E231 missing whitespace after ','\n./Fall3D.py:11:80: E501 line too long (86 > 79 characters)\n./Fall3D.py:12:27: E231 missing whitespace after ','\n./Fall3D.py:12:33: E231 missing whitespace after ','\n./Fall3D.py:12:40: E231 missing whitespace after ','\n./Fall3D.py:12:45: E231 missing whitespace after ','\n./Fall3D.py:15:21: E201 whitespace after '('\n./Fall3D.py:15:28: E231 missing whitespace after ','\n./Fall3D.py:17:17: E225 missing whitespace around operator\n./Fall3D.py:17:28: E231 missing whitespace after ','\n./Fall3D.py:17:37: E231 missing whitespace after ','\n./Fall3D.py:17:46: E231 missing whitespace after ','\n./Fall3D.py:19:30: E231 missing whitespace after ','\n./Fall3D.py:19:42: E231 missing whitespace after ','\n./Fall3D.py:23:80: E501 line too long (112 > 79 characters)\n./Fall3D.py:25:68: F821 undefined name 'comand_sub'\n./Fall3D.py:25:80: E501 line too long (85 > 79 characters)\n./Fall3D.py:26:1: W293 blank line contains whitespace\n./Fall3D.py:27:1: W293 blank line contains whitespace\n./Fall3D.py:28:30: E231 missing whitespace after ','\n./Fall3D.py:28:38: W291 trailing whitespace\n./Fall3D.py:30:32: E231 missing whitespace after ':'\n./Fall3D.py:31:1: W293 blank line contains whitespace\n./Fall3D.py:34:1: W293 blank line contains whitespace\n./Fall3D.py:37:32: W291 trailing whitespace\n./Fall3D.py:38:49: W291 trailing whitespace\n./Fall3D.py:55:1: E302 expected 2 blank lines, found 1\n./Fall3D.py:57:45: E231 missing whitespace after ','\n./Fall3D.py:57:70: E231 missing whitespace after ','\n./Fall3D.py:57:80: E501 line too long (95 > 79 characters)\n./Fall3D.py:58:15: E225 missing whitespace around operator\n./Fall3D.py:59:1: W293 blank line contains whitespace\n./Fall3D.py:61:12: E225 missing whitespace around operator\n./Fall3D.py:61:37: E231 missing whitespace after ','\n./Fall3D.py:62:13: E225 missing whitespace around operator\n./Fall3D.py:62:38: E231 missing whitespace after ','\n./Fall3D.py:63:15: E225 missing whitespace around operator\n./Fall3D.py:63:40: E231 missing whitespace after ','\n./Fall3D.py:64:35: E231 missing whitespace after ','\n./Fall3D.py:64:46: E231 missing whitespace after ','\n./Fall3D.py:64:53: E231 missing whitespace after ','\n./Fall3D.py:64:58: E231 missing whitespace after ','\n./Fall3D.py:66:1: E305 expected 2 blank lines after class or function definition, found 1\n./Fall3D_container.py:8:1: E302 expected 2 blank lines, found 1\n./Fall3D_container.py:10:80: E501 line too long (100 > 79 characters)\n./Fall3D_container.py:14:1: W293 blank line contains whitespace\n./Fall3D_container.py:30:80: E501 line too long (84 > 79 characters)\n./Fall3D_container.py:33:1: W293 blank line contains whitespace\n./Fall3D_container.py:35:53: E231 missing whitespace after ','\n./Fall3D_container.py:35:80: E501 line too long (85 > 79 characters)\n./Fall3D_container.py:48:80: E501 line too long (120 > 79 characters)\n./Fall3D_container.py:52:1: W391 blank line at end of file\n./Fall3D_leonardo.py:4:1: F401 'shutil' imported but unused\n./Fall3D_leonardo.py:11:1: E302 expected 2 blank lines, found 1\n./Fall3D_leonardo.py:11:30: E231 missing whitespace after ','\n./Fall3D_leonardo.py:11:44: E231 missing whitespace after ','\n./Fall3D_leonardo.py:11:59: E231 missing whitespace after ','\n./Fall3D_leonardo.py:11:73: E231 missing whitespace after ','\n./Fall3D_leonardo.py:11:80: E501 line too long (86 > 79 characters)\n./Fall3D_leonardo.py:12:27: E231 missing whitespace after ','\n./Fall3D_leonardo.py:12:33: E231 missing whitespace after ','\n./Fall3D_leonardo.py:12:40: E231 missing whitespace after ','\n./Fall3D_leonardo.py:12:45: E231 missing whitespace after ','\n./Fall3D_leonardo.py:15:21: E201 whitespace after '('\n./Fall3D_leonardo.py:15:28: E231 missing whitespace after ','\n./Fall3D_leonardo.py:17:17: E225 missing whitespace around operator\n./Fall3D_leonardo.py:17:28: E231 missing whitespace after ','\n./Fall3D_leonardo.py:17:37: E231 missing whitespace after ','\n./Fall3D_leonardo.py:17:46: E231 missing whitespace after ','\n./Fall3D_leonardo.py:19:30: E231 missing whitespace after ','\n./Fall3D_leonardo.py:19:42: E231 missing whitespace after ','\n./Fall3D_leonardo.py:23:80: E501 line too long (112 > 79 characters)\n./Fall3D_leonardo.py:25:68: F821 undefined name 'comand_sub'\n./Fall3D_leonardo.py:25:80: E501 line too long (85 > 79 characters)\n./Fall3D_leonardo.py:26:1: W293 blank line contains whitespace\n./Fall3D_leonardo.py:27:1: W293 blank line contains whitespace\n./Fall3D_leonardo.py:28:30: E231 missing whitespace after ','\n./Fall3D_leonardo.py:28:38: W291 trailing whitespace\n./Fall3D_leonardo.py:30:32: E231 missing whitespace after ':'\n./Fall3D_leonardo.py:31:1: W293 blank line contains whitespace\n./Fall3D_leonardo.py:34:1: W293 blank line contains whitespace\n./Fall3D_leonardo.py:37:32: W291 trailing whitespace\n./Fall3D_leonardo.py:38:49: W291 trailing whitespace\n./Fall3D_leonardo.py:55:1: E302 expected 2 blank lines, found 1\n./Fall3D_leonardo.py:57:80: E501 line too long (248 > 79 characters)\n./Fall3D_leonardo.py:57:96: E231 missing whitespace after ','\n./Fall3D_leonardo.py:57:172: E231 missing whitespace after ','\n./Fall3D_leonardo.py:58:15: E225 missing whitespace around operator\n./Fall3D_leonardo.py:58:80: E501 line too long (123 > 79 characters)\n./Fall3D_leonardo.py:59:1: W293 blank line contains whitespace\n./Fall3D_leonardo.py:61:12: E225 missing whitespace around operator\n./Fall3D_leonardo.py:61:37: E231 missing whitespace after ','\n./Fall3D_leonardo.py:62:13: E225 missing whitespace around operator\n./Fall3D_leonardo.py:62:38: E231 missing whitespace after ','\n./Fall3D_leonardo.py:63:15: E225 missing whitespace around operator\n./Fall3D_leonardo.py:63:40: E231 missing whitespace after ','\n./Fall3D_leonardo.py:64:35: E231 missing whitespace after ','\n./Fall3D_leonardo.py:64:46: E231 missing whitespace after ','\n./Fall3D_leonardo.py:64:53: E231 missing whitespace after ','\n./Fall3D_leonardo.py:64:58: E231 missing whitespace after ','\n./Fall3D_leonardo.py:66:1: E305 expected 2 blank lines after class or function definition, found 1",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/12/execution/node/88/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -479,7 +543,7 @@
                                 "version": "v4.0",
                                 "url": "https://github.com/indigo-dc/sqa-baseline/releases/tag/v4.0"
                             },
-                            "data_unstructured": "./Fall3D.py:4:1: F401 'shutil' imported but unused\n./Fall3D.py:11:1: E302 expected 2 blank lines, found 1\n./Fall3D.py:11:30: E231 missing whitespace after ','\n./Fall3D.py:11:44: E231 missing whitespace after ','\n./Fall3D.py:11:59: E231 missing whitespace after ','\n./Fall3D.py:11:73: E231 missing whitespace after ','\n./Fall3D.py:11:80: E501 line too long (86 > 79 characters)\n./Fall3D.py:12:27: E231 missing whitespace after ','\n./Fall3D.py:12:33: E231 missing whitespace after ','\n./Fall3D.py:12:40: E231 missing whitespace after ','\n./Fall3D.py:12:45: E231 missing whitespace after ','\n./Fall3D.py:15:21: E201 whitespace after '('\n./Fall3D.py:15:28: E231 missing whitespace after ','\n./Fall3D.py:17:17: E225 missing whitespace around operator\n./Fall3D.py:17:28: E231 missing whitespace after ','\n./Fall3D.py:17:37: E231 missing whitespace after ','\n./Fall3D.py:17:46: E231 missing whitespace after ','\n./Fall3D.py:19:30: E231 missing whitespace after ','\n./Fall3D.py:19:42: E231 missing whitespace after ','\n./Fall3D.py:23:80: E501 line too long (112 > 79 characters)\n./Fall3D.py:25:68: F821 undefined name 'comand_sub'\n./Fall3D.py:25:80: E501 line too long (85 > 79 characters)\n./Fall3D.py:26:1: W293 blank line contains whitespace\n./Fall3D.py:27:1: W293 blank line contains whitespace\n./Fall3D.py:28:30: E231 missing whitespace after ','\n./Fall3D.py:28:38: W291 trailing whitespace\n./Fall3D.py:30:32: E231 missing whitespace after ':'\n./Fall3D.py:31:1: W293 blank line contains whitespace\n./Fall3D.py:34:1: W293 blank line contains whitespace\n./Fall3D.py:37:32: W291 trailing whitespace\n./Fall3D.py:38:49: W291 trailing whitespace\n./Fall3D.py:55:1: E302 expected 2 blank lines, found 1\n./Fall3D.py:57:45: E231 missing whitespace after ','\n./Fall3D.py:57:70: E231 missing whitespace after ','\n./Fall3D.py:57:80: E501 line too long (95 > 79 characters)\n./Fall3D.py:58:15: E225 missing whitespace around operator\n./Fall3D.py:59:1: W293 blank line contains whitespace\n./Fall3D.py:61:12: E225 missing whitespace around operator\n./Fall3D.py:61:37: E231 missing whitespace after ','\n./Fall3D.py:62:13: E225 missing whitespace around operator\n./Fall3D.py:62:38: E231 missing whitespace after ','\n./Fall3D.py:63:15: E225 missing whitespace around operator\n./Fall3D.py:63:40: E231 missing whitespace after ','\n./Fall3D.py:64:35: E231 missing whitespace after ','\n./Fall3D.py:64:46: E231 missing whitespace after ','\n./Fall3D.py:64:53: E231 missing whitespace after ','\n./Fall3D.py:64:58: E231 missing whitespace after ','\n./Fall3D.py:66:1: E305 expected 2 blank lines after class or function definition, found 1"
+                            "data_unstructured": "./Fall3D.py:4:1: F401 'shutil' imported but unused\n./Fall3D.py:11:1: E302 expected 2 blank lines, found 1\n./Fall3D.py:11:30: E231 missing whitespace after ','\n./Fall3D.py:11:44: E231 missing whitespace after ','\n./Fall3D.py:11:59: E231 missing whitespace after ','\n./Fall3D.py:11:73: E231 missing whitespace after ','\n./Fall3D.py:11:80: E501 line too long (86 > 79 characters)\n./Fall3D.py:12:27: E231 missing whitespace after ','\n./Fall3D.py:12:33: E231 missing whitespace after ','\n./Fall3D.py:12:40: E231 missing whitespace after ','\n./Fall3D.py:12:45: E231 missing whitespace after ','\n./Fall3D.py:15:21: E201 whitespace after '('\n./Fall3D.py:15:28: E231 missing whitespace after ','\n./Fall3D.py:17:17: E225 missing whitespace around operator\n./Fall3D.py:17:28: E231 missing whitespace after ','\n./Fall3D.py:17:37: E231 missing whitespace after ','\n./Fall3D.py:17:46: E231 missing whitespace after ','\n./Fall3D.py:19:30: E231 missing whitespace after ','\n./Fall3D.py:19:42: E231 missing whitespace after ','\n./Fall3D.py:23:80: E501 line too long (112 > 79 characters)\n./Fall3D.py:25:68: F821 undefined name 'comand_sub'\n./Fall3D.py:25:80: E501 line too long (85 > 79 characters)\n./Fall3D.py:26:1: W293 blank line contains whitespace\n./Fall3D.py:27:1: W293 blank line contains whitespace\n./Fall3D.py:28:30: E231 missing whitespace after ','\n./Fall3D.py:28:38: W291 trailing whitespace\n./Fall3D.py:30:32: E231 missing whitespace after ':'\n./Fall3D.py:31:1: W293 blank line contains whitespace\n./Fall3D.py:34:1: W293 blank line contains whitespace\n./Fall3D.py:37:32: W291 trailing whitespace\n./Fall3D.py:38:49: W291 trailing whitespace\n./Fall3D.py:55:1: E302 expected 2 blank lines, found 1\n./Fall3D.py:57:45: E231 missing whitespace after ','\n./Fall3D.py:57:70: E231 missing whitespace after ','\n./Fall3D.py:57:80: E501 line too long (95 > 79 characters)\n./Fall3D.py:58:15: E225 missing whitespace around operator\n./Fall3D.py:59:1: W293 blank line contains whitespace\n./Fall3D.py:61:12: E225 missing whitespace around operator\n./Fall3D.py:61:37: E231 missing whitespace after ','\n./Fall3D.py:62:13: E225 missing whitespace around operator\n./Fall3D.py:62:38: E231 missing whitespace after ','\n./Fall3D.py:63:15: E225 missing whitespace around operator\n./Fall3D.py:63:40: E231 missing whitespace after ','\n./Fall3D.py:64:35: E231 missing whitespace after ','\n./Fall3D.py:64:46: E231 missing whitespace after ','\n./Fall3D.py:64:53: E231 missing whitespace after ','\n./Fall3D.py:64:58: E231 missing whitespace after ','\n./Fall3D.py:66:1: E305 expected 2 blank lines after class or function definition, found 1\n./Fall3D_container.py:8:1: E302 expected 2 blank lines, found 1\n./Fall3D_container.py:10:80: E501 line too long (100 > 79 characters)\n./Fall3D_container.py:14:1: W293 blank line contains whitespace\n./Fall3D_container.py:30:80: E501 line too long (84 > 79 characters)\n./Fall3D_container.py:33:1: W293 blank line contains whitespace\n./Fall3D_container.py:35:53: E231 missing whitespace after ','\n./Fall3D_container.py:35:80: E501 line too long (85 > 79 characters)\n./Fall3D_container.py:48:80: E501 line too long (120 > 79 characters)\n./Fall3D_container.py:52:1: W391 blank line at end of file\n./Fall3D_leonardo.py:4:1: F401 'shutil' imported but unused\n./Fall3D_leonardo.py:11:1: E302 expected 2 blank lines, found 1\n./Fall3D_leonardo.py:11:30: E231 missing whitespace after ','\n./Fall3D_leonardo.py:11:44: E231 missing whitespace after ','\n./Fall3D_leonardo.py:11:59: E231 missing whitespace after ','\n./Fall3D_leonardo.py:11:73: E231 missing whitespace after ','\n./Fall3D_leonardo.py:11:80: E501 line too long (86 > 79 characters)\n./Fall3D_leonardo.py:12:27: E231 missing whitespace after ','\n./Fall3D_leonardo.py:12:33: E231 missing whitespace after ','\n./Fall3D_leonardo.py:12:40: E231 missing whitespace after ','\n./Fall3D_leonardo.py:12:45: E231 missing whitespace after ','\n./Fall3D_leonardo.py:15:21: E201 whitespace after '('\n./Fall3D_leonardo.py:15:28: E231 missing whitespace after ','\n./Fall3D_leonardo.py:17:17: E225 missing whitespace around operator\n./Fall3D_leonardo.py:17:28: E231 missing whitespace after ','\n./Fall3D_leonardo.py:17:37: E231 missing whitespace after ','\n./Fall3D_leonardo.py:17:46: E231 missing whitespace after ','\n./Fall3D_leonardo.py:19:30: E231 missing whitespace after ','\n./Fall3D_leonardo.py:19:42: E231 missing whitespace after ','\n./Fall3D_leonardo.py:23:80: E501 line too long (112 > 79 characters)\n./Fall3D_leonardo.py:25:68: F821 undefined name 'comand_sub'\n./Fall3D_leonardo.py:25:80: E501 line too long (85 > 79 characters)\n./Fall3D_leonardo.py:26:1: W293 blank line contains whitespace\n./Fall3D_leonardo.py:27:1: W293 blank line contains whitespace\n./Fall3D_leonardo.py:28:30: E231 missing whitespace after ','\n./Fall3D_leonardo.py:28:38: W291 trailing whitespace\n./Fall3D_leonardo.py:30:32: E231 missing whitespace after ':'\n./Fall3D_leonardo.py:31:1: W293 blank line contains whitespace\n./Fall3D_leonardo.py:34:1: W293 blank line contains whitespace\n./Fall3D_leonardo.py:37:32: W291 trailing whitespace\n./Fall3D_leonardo.py:38:49: W291 trailing whitespace\n./Fall3D_leonardo.py:55:1: E302 expected 2 blank lines, found 1\n./Fall3D_leonardo.py:57:80: E501 line too long (248 > 79 characters)\n./Fall3D_leonardo.py:57:96: E231 missing whitespace after ','\n./Fall3D_leonardo.py:57:172: E231 missing whitespace after ','\n./Fall3D_leonardo.py:58:15: E225 missing whitespace around operator\n./Fall3D_leonardo.py:58:80: E501 line too long (123 > 79 characters)\n./Fall3D_leonardo.py:59:1: W293 blank line contains whitespace\n./Fall3D_leonardo.py:61:12: E225 missing whitespace around operator\n./Fall3D_leonardo.py:61:37: E231 missing whitespace after ','\n./Fall3D_leonardo.py:62:13: E225 missing whitespace around operator\n./Fall3D_leonardo.py:62:38: E231 missing whitespace after ','\n./Fall3D_leonardo.py:63:15: E225 missing whitespace around operator\n./Fall3D_leonardo.py:63:40: E231 missing whitespace after ','\n./Fall3D_leonardo.py:64:35: E231 missing whitespace after ','\n./Fall3D_leonardo.py:64:46: E231 missing whitespace after ','\n./Fall3D_leonardo.py:64:53: E231 missing whitespace after ','\n./Fall3D_leonardo.py:64:58: E231 missing whitespace after ','\n./Fall3D_leonardo.py:66:1: E305 expected 2 blank lines after class or function definition, found 1"
                         }
                     ],
                     "valid": false,
@@ -493,7 +557,7 @@
             }
         },
         "QC.Uni": {
-            "valid": true,
+            "valid": false,
             "subcriteria": {
                 "QC.Uni01": {
                     "description": "Are the tests passing through an automated means?",
@@ -501,30 +565,30 @@
                     "hint": "Please check & solve the failing test cases found by the {tool_name} tool",
                     "evidence": [
                         {
-                            "valid": true,
-                            "message": "Test cases are successfully passing using bash testing framework",
+                            "valid": false,
+                            "message": "Test cases are not passing using None testing framework",
                             "plugin": {
                                 "name": "report2sqaaas-plugin-jenkins_exit_status",
                                 "version": "2.1.0"
                             },
                             "tool": {
-                                "name": "commands",
-                                "lang": "default",
-                                "version": "not-provided",
+                                "name": "pytest",
+                                "lang": "Python",
+                                "version": "7.1.3",
                                 "docker": {
-                                    "image": "eoscsynergy/sqaaas-micromamba:1.5.3-1",
-                                    "reviewed": "1970-01-01"
+                                    "image": "eoscsynergy/sqaaas-pytest:7.1.3-alpha",
+                                    "reviewed": "2023-08-09"
                                 },
                                 "ci": {
-                                    "name": "QC.Uni gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d commands",
-                                    "status": "SUCCESS",
+                                    "name": "QC.Uni gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d pytest",
+                                    "status": "FAILED",
                                     "stdout_command": [
-                                        "echo 'Here we will execute COMPSs'"
+                                        "pytest  --json-report  --json-report-indent 4"
                                     ],
-                                    "stdout_text": "Here we will execute COMPSs",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/10/execution/node/97/log?consoleFull"
+                                    "stdout_text": "============================= test session starts ==============================\nplatform linux -- Python 3.9.17, pytest-7.1.3, pluggy-1.2.0\nrootdir: /sqaaas-build/gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d\nplugins: json-report-1.5.0, metadata-3.0.0\ncollected 0 items\n\n--------------------------------- JSON report ----------------------------------\nreport saved to: .report.json\n============================ no tests ran in 0.00s =============================",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/12/execution/node/97/log?consoleFull"
                                 },
-                                "level": null,
+                                "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
                             },
                             "standard": {
@@ -535,13 +599,14 @@
                             "data_unstructured": {}
                         }
                     ],
-                    "valid": true
+                    "valid": false,
+                    "required_for_next_level_badge": false
                 }
             },
             "coverage": {
-                "percentage": 100,
+                "percentage": 0,
                 "total_subcriteria": 1,
-                "success_subcriteria": 1
+                "success_subcriteria": 0
             }
         },
         "QC.Ver": {
@@ -574,7 +639,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/10/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/12/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -617,7 +682,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/10/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/12/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -660,7 +725,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/10/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/fall3d.git.assess.sqaaas/job/master/12/execution/node/106/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/fall3d.git.assess.sqaaas"
@@ -724,17 +789,17 @@
                 },
                 "silver": {
                     "to_fulfill": [
-                        "QC.Ver",
-                        "QC.Lic",
                         "QC.Doc",
+                        "QC.Ver",
                         "QC.Met",
-                        "QC.Acc"
+                        "QC.Acc",
+                        "QC.Lic"
                     ],
                     "missing": [
-                        "QC.Met",
                         "QC.Ver",
-                        "QC.Lic",
-                        "QC.Doc"
+                        "QC.Met",
+                        "QC.Doc",
+                        "QC.Lic"
                     ],
                     "fulfilled": [
                         "QC.Acc"
@@ -742,25 +807,25 @@
                 },
                 "gold": {
                     "to_fulfill": [
-                        "QC.Ver",
-                        "QC.Lic",
                         "QC.Doc",
-                        "QC.Sec",
+                        "QC.Ver",
                         "QC.Met",
                         "QC.Acc",
+                        "QC.Lic",
                         "QC.Uni",
-                        "QC.Sty"
+                        "QC.Sty",
+                        "QC.Sec"
                     ],
                     "missing": [
-                        "QC.Ver",
-                        "QC.Lic",
                         "QC.Doc",
-                        "QC.Sec",
+                        "QC.Ver",
                         "QC.Met",
-                        "QC.Sty"
+                        "QC.Lic",
+                        "QC.Uni",
+                        "QC.Sty",
+                        "QC.Sec"
                     ],
                     "fulfilled": [
-                        "QC.Uni",
                         "QC.Acc"
                     ]
                 }
