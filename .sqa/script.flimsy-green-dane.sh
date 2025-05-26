@@ -5,5 +5,5 @@
 
 (
 cd gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d &&
-    echo 'Here we will execute COMPSs'
+    pytest  --json-report  --json-report-indent 4
 )

@@ -15,50 +15,50 @@ sqa_criteria:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d git:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-eggplant-butterfly.sh
-        container: qc.acc_bluesy-chestnut-javanese
+        - /usr/bin/env sh .sqa/script.skanky-yellow-lobster.sh
+        container: qc.acc_slimy-pink-gibbon
   QC.Doc:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-yellow-mist.sh
-        container: qc.doc_shabby-harlequin-hyrax
+        - /usr/bin/env sh .sqa/script.snappy-saffron-rhinoceros.sh
+        container: qc.doc_scanty-olivine-rottweiler
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d git:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-scarlet-cockroach.sh
-        container: qc.doc_skimpy-sepia-wolf
+        - /usr/bin/env sh .sqa/script.flabby-xanthic-whale.sh
+        container: qc.doc_jumpy-tomato-bat
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-heliotrope-chipmunk.sh
-        container: qc.doc_smelly-maroon-buzzard
+        - /usr/bin/env sh .sqa/script.fuzzy-mauve-bison.sh
+        container: qc.doc_skimpy-cinnabar-uakari
   QC.Lic:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-pear-russel.sh
-        container: qc.lic_homely-burgundy-albatross
+        - /usr/bin/env sh .sqa/script.muzzy-chocolate-spoonbill.sh
+        container: qc.lic_woolly-tan-mayfly
   QC.Sec:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-grey-bordeaux.sh
-        container: qc.sec_foggy-corn-goat
+        - /usr/bin/env sh .sqa/script.foggy-magenta-caiman.sh
+        container: qc.sec_ugly-wheat-butterfly
   QC.Sty:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-coral-giraffe.sh
-        container: qc.sty_cheeky-plum-grasshopper
+        - /usr/bin/env sh .sqa/script.chummy-lilac-monkey.sh
+        container: qc.sty_messy-fuchsia-tetra
   QC.Uni:
     repos:
-      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d commands:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-peach-paradise.sh
-        container: qc.uni_slaphappy-amaranth-spitz
+        - /usr/bin/env sh .sqa/script.flimsy-green-dane.sh
+        container: qc.uni_tasty-vermilion-octopus
   QC.Ver:
     repos:
       gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/fall3d get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-maroon-pig.sh
-        container: qc.ver_ready-ultramarine-dragonfly
+        - /usr/bin/env sh .sqa/script.flabby-coral-koala.sh
+        container: qc.ver_blurry-red-hyrax
 timeout: 5400
